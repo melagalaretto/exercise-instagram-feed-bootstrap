@@ -1,0 +1,393 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css"
+        integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
+    <title>Instagram Boostrap</title>
+    <script src="https://kit.fontawesome.com/58d5cbd9fe.js" crossorigin="anonymous"></script>
+</head>
+
+<body>
+
+    <!-- Image and text -->
+    <div class="container-fluid">
+
+
+        <nav class="navbar navbar-expand-lg navbar-light bg-light">
+            <div class="container-fluid">
+                <a class="navbar-brand" href="#">
+
+                    <i class="fa fa-instagram" aria-hidden="true"></i> Instagram</a>
+
+                <div class="dropdown">
+                    <button type="button" class="btn btn-success " data-toggle="modal"
+                        data-target="#exampleModal">Create a new post</button>
+                    <!-- modals -->
+                    <div class="modal" tabindex="-1" role="dialog" id="exampleModal">
+                        <div class="modal-dialog" role="document">
+                            <div class="modal-content">
+                                <div class="modal-body">
+                                    <textarea class="form-control" id="exampleFormControlTextarea1" rows="3"></textarea>
+                                    <button type="button" class="btn btn-light btn-outline-secondary mt-2"><i
+                                            class="fa fa-camera" aria-hidden="true"></i></button>
+                                    <button type="button" class="btn btn-light btn-outline-secondary mt-2"><i
+                                            class="fa fa-map-marker" aria-hidden="true"></i></button>
+                                </div>
+                                <div class="modal-footer">
+                                    <button type="button" class="btn btn-secondary bg-white text-dark"
+                                        data-dismiss="modal">Cancel</button>
+                                    <button type="button" class="btn btn-primary bg-success">Publish</button>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <!-- modals -->
+                    <i class="fa fa-cog btn btn-secondary dropdown-toggle" aria-hidden="true" id="dropdownMenuButton"
+                        data-toggle="dropdown" aria-haspopup="true" aria-expanded="false"> </i>
+                    <div class="dropdown-menu" aria-labelledby="dropdownMenuButton">
+                        <a class="dropdown-item" href="#">Action</a>
+                        <a class="dropdown-item" href="#">Another action</a>
+                        <a class="dropdown-item" href="#">Something else here</a>
+                        <br>
+                        <a class="dropdown-item" href="#">Log out</a>
+                    </div>
+                </div>
+            </div>
+        </nav>
+    </div>
+    <!-- Botones -->
+    <nav class="nav nav-pills justify-content-center my-2">
+        <a href="index.html" class="nav-item nav-link"><i class="fas fa-th"></i></a>
+        <a href="feed.html" class="nav-item nav-link active"><i class="fa fa-stop"></i><a>
+    </nav>
+
+    <!-- imagenes -->
+    <div class="container-fluid bg-light">
+        <div class="row justify-content-center mb-5">
+            <div class="col-6">
+                <div class="card-header d-flex justify-content-between bg-white">
+                    <p><b>My first photo</b></p>
+                    <p>12/5</p>
+                </div>
+                <div class="card-body p-0 m-0">
+                    <img src="https://i.picsum.photos/id/326/700/500.jpg?hmac=292AZ9rMGpbCmw_0e16tAnmQg0g9NCNwO0JmAZXjCg0"
+                        width="100%" alt="">
+                </div>
+                <div class="card-footer bg-white">
+                    <p><b>1230 Likes</b></p>
+                    <p>A lemon tea to combat the cold</p>
+
+                    <div class="row">
+                        <div class="input-group border-0 mb-3">
+                            <div class="input-group-prepend">
+                                <span class="input-group-text border-0 bg-white"><i class="fa fa-heart-o"
+                                        aria-hidden="true"></i></span>
+                            </div>
+                            <input type="text" class="form-control border-0" placeholder="Comment..."
+                                aria-label="Amount (to the nearest dollar)">
+                            <div class="input-group-append">
+                                <span class="input-group-text border-0 bg-white"><i
+                                        class="fas fa-ellipsis-v"></i></span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+
+        </div>
+
+        <div class="row justify-content-center mb-5">
+            <div class="col-6">
+                <div class="card-header d-flex justify-content-between bg-white">
+                    <p><b>My first photo</b></p>
+                    <p>12/5</p>
+                </div>
+                <div class="card-body p-0 m-0">
+                    <img src="https://i.picsum.photos/id/501/700/500.jpg?hmac=pLiP5w8FivSC08H5xRrdYO-kWj4E3rSq0Kjj6x4P_nw"
+                        width="100%" alt="">
+                </div>
+                <div class="card-footer bg-white">
+                    <p><b>1050 Likes</b></p>
+                    <p>Beautiful afternoon with friends</p>
+
+                    <div class="row">
+                        <div class="input-group border-0 mb-3">
+                            <div class="input-group-prepend">
+                                <span class="input-group-text border-0 bg-white"><i class="fa fa-heart-o"
+                                        aria-hidden="true"></i></span>
+                            </div>
+                            <input type="text" class="form-control border-0" placeholder="Comment..."
+                                aria-label="Amount (to the nearest dollar)">
+                            <div class="input-group-append">
+                                <span class="input-group-text border-0 bg-white"><i
+                                        class="fas fa-ellipsis-v"></i></span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+
+        </div>
+
+        <div class="row justify-content-center mb-5">
+            <div class="col-6">
+                <div class="card-header d-flex justify-content-between bg-white">
+                    <p><b>My first photo</b></p>
+                    <p>12/5</p>
+                </div>
+                <div class="card-body p-0 m-0">
+                    <img src="https://i.picsum.photos/id/63/700/500.jpg?hmac=uzLkjq-qJdwObGoNVOLk0gb_mEAid_1bDCGpLCkXDUI"
+                        width="100%" alt="">
+                </div>
+                <div class="card-footer bg-white">
+                    <p><b>987 Likes</b></p>
+                    <p>Coffee with milk, ¿Who likes it?</p>
+
+                    <div class="row">
+                        <div class="input-group border-0 mb-3">
+                            <div class="input-group-prepend">
+                                <span class="input-group-text border-0 bg-white"><i class="fa fa-heart-o"
+                                        aria-hidden="true"></i></span>
+                            </div>
+                            <input type="text" class="form-control border-0" placeholder="Comment..."
+                                aria-label="Amount (to the nearest dollar)">
+                            <div class="input-group-append">
+                                <span class="input-group-text border-0 bg-white"><i
+                                        class="fas fa-ellipsis-v"></i></span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+
+        </div>
+
+        <div class="row justify-content-center mb-5">
+            <div class="col-6">
+                <div class="card-header d-flex justify-content-between bg-white">
+                    <p><b>My first photo</b></p>
+                    <p>12/5</p>
+                </div>
+                <div class="card-body p-0 m-0">
+                    <img src="https://i.picsum.photos/id/738/700/500.jpg?hmac=tHOaS97kBkfhPP7COVdWpy4YRaGu2tmURtz1lCvpAFw"
+                        width="100%" alt="">
+                </div>
+                <div class="card-footer bg-white">
+                    <p><b>1566 Likes</b></p>
+                    <p>Photographing such a delicate and beautiful flower</p>
+
+                    <div class="row">
+                        <div class="input-group border-0 mb-3">
+                            <div class="input-group-prepend">
+                                <span class="input-group-text border-0 bg-white"><i class="fa fa-heart-o"
+                                        aria-hidden="true"></i></span>
+                            </div>
+                            <input type="text" class="form-control border-0" placeholder="Comment..."
+                                aria-label="Amount (to the nearest dollar)">
+                            <div class="input-group-append">
+                                <span class="input-group-text border-0 bg-white"><i
+                                        class="fas fa-ellipsis-v"></i></span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+
+        </div>
+
+        <div class="row justify-content-center mb-5">
+            <div class="col-6">
+                <div class="card-header d-flex justify-content-between bg-white">
+                    <p><b>My first photo</b></p>
+                    <p>12/5</p>
+                </div>
+                <div class="card-body p-0 m-0">
+                    <img src="https://i.picsum.photos/id/961/700/500.jpg?hmac=4jx1Swkc0DlLUQU0x-0gNKWshNkzJeTxQonRU40Cpm8"
+                        width="100%" alt="">
+                </div>
+                <div class="card-footer bg-white">
+                    <p><b>2309 Likes</b></p>
+                    <p>The mountains from the best point of view</p>
+
+                    <div class="row">
+                        <div class="input-group border-0 mb-3">
+                            <div class="input-group-prepend">
+                                <span class="input-group-text border-0 bg-white"><i class="fa fa-heart-o"
+                                        aria-hidden="true"></i></span>
+                            </div>
+                            <input type="text" class="form-control border-0" placeholder="Comment..."
+                                aria-label="Amount (to the nearest dollar)">
+                            <div class="input-group-append">
+                                <span class="input-group-text border-0 bg-white"><i
+                                        class="fas fa-ellipsis-v"></i></span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+
+        </div>
+
+        <div class="row justify-content-center mb-5">
+            <div class="col-6">
+                <div class="card-header d-flex justify-content-between bg-white">
+                    <p><b>My first photo</b></p>
+                    <p>12/5</p>
+                </div>
+                <div class="card-body p-0 m-0">
+                    <img src="https://i.picsum.photos/id/807/700/500.jpg?hmac=Mj94xI99VyfUuhR8QRJhcV4EdmjK2JSOR3_fjnSxioc"
+                        width="100%" alt="">
+                </div>
+                <div class="card-footer bg-white">
+                    <p><b>870 Likes</b></p>
+                    <p>Very foggy day</p>
+
+                    <div class="row">
+                        <div class="input-group border-0 mb-3">
+                            <div class="input-group-prepend">
+                                <span class="input-group-text border-0 bg-white"><i class="fa fa-heart-o"
+                                        aria-hidden="true"></i></span>
+                            </div>
+                            <input type="text" class="form-control border-0" placeholder="Comment..."
+                                aria-label="Amount (to the nearest dollar)">
+                            <div class="input-group-append">
+                                <span class="input-group-text border-0 bg-white"><i
+                                        class="fas fa-ellipsis-v"></i></span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+
+        </div>
+
+        <div class="row justify-content-center mb-5">
+            <div class="col-6">
+                <div class="card-header d-flex justify-content-between bg-white">
+                    <p><b>My first photo</b></p>
+                    <p>12/5</p>
+                </div>
+                <div class="card-body p-0 m-0">
+                    <img src="https://i.picsum.photos/id/889/700/500.jpg?hmac=_chIrJWWEC_54QMRGpWe1O_F6O4Q8ogCBqdsQVPN_gs"
+                        width="100%" alt="">
+                </div>
+                <div class="card-footer bg-white">
+                    <p><b>2344 Likes</b></p>
+                    <p>Blackberries are very rich, but also very visual, perfect for capturing a photo</p>
+
+                    <div class="row">
+                        <div class="input-group border-0 mb-3">
+                            <div class="input-group-prepend">
+                                <span class="input-group-text border-0 bg-white"><i class="fa fa-heart-o"
+                                        aria-hidden="true"></i></span>
+                            </div>
+                            <input type="text" class="form-control border-0" placeholder="Comment..."
+                                aria-label="Amount (to the nearest dollar)">
+                            <div class="input-group-append">
+                                <span class="input-group-text border-0 bg-white"><i
+                                        class="fas fa-ellipsis-v"></i></span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+
+        </div>
+
+        <div class="row justify-content-center mb-5">
+            <div class="col-6">
+                <div class="card-header d-flex justify-content-between bg-white">
+                    <p><b>My first photo</b></p>
+                    <p>12/5</p>
+                </div>
+                <div class="card-body p-0 m-0">
+                    <img src="https://i.picsum.photos/id/374/700/500.jpg?hmac=jHO8-jl8jFkd4CEE1z6zF91MVZOMyl553FbAXG-r-hY"
+                        width="100%" alt="">
+                </div>
+                <div class="card-footer bg-white">
+                    <p><b>3442 Likes</b></p>
+                    <p>The beach is one of my favorite places!</p>
+
+                    <div class="row">
+                        <div class="input-group border-0 mb-3">
+                            <div class="input-group-prepend">
+                                <span class="input-group-text border-0 bg-white"><i class="fa fa-heart-o"
+                                        aria-hidden="true"></i></span>
+                            </div>
+                            <input type="text" class="form-control border-0" placeholder="Comment..."
+                                aria-label="Amount (to the nearest dollar)">
+                            <div class="input-group-append">
+                                <span class="input-group-text border-0 bg-white"><i
+                                        class="fas fa-ellipsis-v"></i></span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+
+        </div>
+
+        <div class="row justify-content-center mb-5">
+            <div class="col-6">
+                <div class="card-header d-flex justify-content-between bg-white">
+                    <p><b>My first photo</b></p>
+                    <p>12/5</p>
+                </div>
+                <div class="card-body p-0 m-0">
+                    <img src="https://i.picsum.photos/id/703/700/500.jpg?hmac=v-Z1luOGvv9y5NdmRxp-EoMt9mcNHz1w3zk2WOje8ZY"
+                        width="100%" alt="">
+                </div>
+                <div class="card-footer bg-white">
+                    <p><b>1798 Likes</b></p>
+                    <p>After the storm the sun rises, and a beautiful rainbow</p>
+
+                    <div class="row">
+                        <div class="input-group border-0 mb-3">
+                            <div class="input-group-prepend">
+                                <span class="input-group-text border-0 bg-white"><i class="fa fa-heart-o"
+                                        aria-hidden="true"></i></span>
+                            </div>
+                            <input type="text" class="form-control border-0" placeholder="Comment..."
+                                aria-label="Amount (to the nearest dollar)">
+                            <div class="input-group-append">
+                                <span class="input-group-text border-0 bg-white"><i
+                                        class="fas fa-ellipsis-v"></i></span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+
+        </div>
+        <div class="card-footer">
+            <p><b>1230 Likes</b></p>
+            <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Ipsum, est!</p>
+        </div>
+    </div>
+    </div>
+    </div>
+
+
+
+
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"
+        integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj"
+        crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.0/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-Piv4xVNRyMGpqkS2by6br4gNJ7DXjqk09RmUpJ8jgGtD7zP9yug3goQfGII0yAns"
+        crossorigin="anonymous"></script>
+</body>
+
+</html>
